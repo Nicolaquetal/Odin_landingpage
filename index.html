@@ -9,33 +9,47 @@
 </head>
 <body>
     <div class="header">
-        <img src="" alt="Header Logo">
-        <a href="#">Header link one</a>
-        <a href="#">Header link one</a>
-        <a href="#">Header link one</a>
-        <p>This website is awesome</p>
-        <p>This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</p>
-        <button> Sign up</button>
-        <img src="" alt="this is a placeholder for an image">
+        <div class="header-top">
+            <div class="header-top-left">
+                <img src="" alt="Header Logo">
+            </div>
+            <div class="header-top-right">
+                <a href="#">Header link one</a>
+                <a href="#">Header link two</a>
+                <a href="#">Header link three</a>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="header-bottom-left">
+                <div class="title">This website is awesome</div>
+                <div class="secondary">This website has some subtext that goes under the main title. It's a smaller font and the color is lower contrast</div>
+                <button id="Btop"> Sign up</button>
+            </div>
+            <div class="header-bottom-right">
+                <img src="" alt="this is a placeholder for an image">
+            </div>
+        </div>
     </div>
     <div class="content">
         <div class="content-top">
-            <p> Some random information</p>
-            <div>
-                <img src="" alt="image1">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div>
-                <img src="" alt="image1">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div>
-                <img src="" alt="image1">
-                <p>this is some subtext under an illustration or image</p>
-            </div>
-            <div>
-                <img src="" alt="image1">
-                <p>this is some subtext under an illustration or image</p>
+            <div class="info"> Some random information</div>
+            <div class="content-top-bottom">
+                <div>
+                    <img id="i1" src="./colors_and_stuff.png" alt="image1">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <img id="i2" src="./colors_and_stuff.png" alt="image2">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <img id="i3" src="./colors_and_stuff.png" alt="image3">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
+                <div>
+                    <img id="i4" src="./colors_and_stuff.png" alt="image4">
+                    <p>this is some subtext under an illustration or image</p>
+                </div>
             </div>
         </div>
         <div class="content-middle">
@@ -44,12 +58,16 @@
                 Who knows? All i know is that it looks nice.
                 
             </p>
-            <p>-Thor, God of Thunder</p>
+            <div class="author">-Thor, God of Thunder</div>
         </div>
         <div class="content-bottom">
-            <p>Call to action! It's time!</p>
-            <p> Sign up for our product by clicking that button right over there!</p>
-            <button> Sign up</button>
+            <div class="content-bottom-left">
+                <div class="action">Call to action! It's time!</div>
+                <div class="signup"> Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <div class="content-bottom-right">
+                <button id="Bcontent"> Sign up</button>
+            </div>
         </div>
 
 
